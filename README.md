@@ -22,8 +22,8 @@ ChatFit is an AI-powered chatbot that provides **personalized workout and diet r
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/yourusername/chatfit.git
-cd chatfit
+git clone https://github.com/sabdulrahman/ChatFit.git
+cd ChatFit
 ```
 
 ### **2️⃣ Backend Setup (FastAPI)**
