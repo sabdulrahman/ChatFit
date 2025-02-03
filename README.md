@@ -5,9 +5,7 @@ ChatFit is an AI-powered chatbot that provides **personalized workout and diet r
 ## 🚀 Features
 - 💬 **Interactive Chat Interface**: Get fitness-related responses in real-time.
 - 🏈 **Personalized Recommendations**: Tailored workout and diet plans based on fitness data.
-- 📝 **Markdown Rendering**: The chatbot responses are formatted with headings, lists, and bold text.
-- 🔄 **Loading Animations**: Displays a loading animation while processing requests.
-- 📋 **Scrollable Chat History**: View long messages in a fixed-height, scrollable chat window.
+- 🔄 **Persistent Chat History**: Stores user messages and allows viewing past conversations.
 
 ---
 
@@ -61,6 +59,8 @@ By default, the frontend runs on:
 |--------|---------|-------------|
 | `POST` | `/get-recommendations` | Generates a **personalized workout and diet plan** based on the provided fitness data. |
 | `POST` | `/chat` | Handles **free-text chat queries**. If fitness data is available, it is sent to the LLM for better responses. |
+| `GET` | `/chat-history` | Retrieves the **chat history** for the current session. |
+| `DELETE` | `/chat-history` | Clears the chat history. |
 | `GET` | `/` | Returns a simple API status message. |
 
 ---
@@ -75,12 +75,12 @@ By default, the frontend runs on:
 - If fitness data is available, it is attached to the request.
 - Responses are **formatted using React Markdown**.
 - The chat window is **scrollable**.
+- Users can view past **chat history** across sessions.
 
 ---
 
 ## 🚀 Future Enhancements
 - ✅ Integrate more LLM options (GPT, DeepSeek).
-- ✅ Store user history in local storage.
 - ✅ Add **voice support** for hands-free interaction.
 - ✅ Deploy using **Docker & Cloud Services**.
 
