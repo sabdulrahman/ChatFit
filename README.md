@@ -7,6 +7,9 @@ ChatFit is an AI-powered chatbot that provides **personalized workout and diet r
 - 🏈 **Personalized Recommendations**: Tailored workout and diet plans based on fitness data.
 - 🔄 **Persistent Chat History**: Stores user messages and allows viewing past conversations.
 
+## 📸 App Screenshot
+![ChatFit App Screenshot](ChatFit.png)
+
 ---
 
 ## 🛠️ Tech Stack
